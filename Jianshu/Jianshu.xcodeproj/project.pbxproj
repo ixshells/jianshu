@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3BC2F1E2058E24700A0429B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC2F1D2058E24700A0429B /* AppDelegate.swift */; };
+		A3BC2F202058E24700A0429B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC2F1F2058E24700A0429B /* ViewController.swift */; };
+		A3BC2F232058E24700A0429B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3BC2F212058E24700A0429B /* Main.storyboard */; };
+		A3BC2F252058E24700A0429B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3BC2F242058E24700A0429B /* Assets.xcassets */; };
+		A3BC2F282058E24700A0429B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3BC2F262058E24700A0429B /* LaunchScreen.storyboard */; };
+		A3BC2F332058E24700A0429B /* JianshuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC2F322058E24700A0429B /* JianshuTests.swift */; };
+		A3BC2F3E2058E24700A0429B /* JianshuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC2F3D2058E24700A0429B /* JianshuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3BC2F2F2058E24700A0429B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3BC2F122058E24700A0429B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3BC2F192058E24700A0429B;
+			remoteInfo = Jianshu;
+		};
+		A3BC2F3A2058E24700A0429B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3BC2F122058E24700A0429B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3BC2F192058E24700A0429B;
+			remoteInfo = Jianshu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3BC2F1A2058E24700A0429B /* Jianshu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jianshu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3BC2F1D2058E24700A0429B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3BC2F1F2058E24700A0429B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3BC2F222058E24700A0429B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3BC2F242058E24700A0429B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3BC2F272058E24700A0429B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3BC2F292058E24700A0429B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3BC2F2E2058E24700A0429B /* JianshuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JianshuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3BC2F322058E24700A0429B /* JianshuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JianshuTests.swift; sourceTree = "<group>"; };
+		A3BC2F342058E24700A0429B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3BC2F392058E24700A0429B /* JianshuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JianshuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3BC2F3D2058E24700A0429B /* JianshuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JianshuUITests.swift; sourceTree = "<group>"; };
+		A3BC2F3F2058E24700A0429B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3BC2F172058E24700A0429B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BC2F2B2058E24700A0429B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BC2F362058E24700A0429B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3BC2F112058E24700A0429B = {
+			isa = PBXGroup;
+			children = (
+				A3BC2F1C2058E24700A0429B /* Jianshu */,
+				A3BC2F312058E24700A0429B /* JianshuTests */,
+				A3BC2F3C2058E24700A0429B /* JianshuUITests */,
+				A3BC2F1B2058E24700A0429B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3BC2F1B2058E24700A0429B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3BC2F1A2058E24700A0429B /* Jianshu.app */,
+				A3BC2F2E2058E24700A0429B /* JianshuTests.xctest */,
+				A3BC2F392058E24700A0429B /* JianshuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3BC2F1C2058E24700A0429B /* Jianshu */ = {
+			isa = PBXGroup;
+			children = (
+				A3BC2F1D2058E24700A0429B /* AppDelegate.swift */,
+				A3BC2F1F2058E24700A0429B /* ViewController.swift */,
+				A3BC2F212058E24700A0429B /* Main.storyboard */,
+				A3BC2F242058E24700A0429B /* Assets.xcassets */,
+				A3BC2F262058E24700A0429B /* LaunchScreen.storyboard */,
+				A3BC2F292058E24700A0429B /* Info.plist */,
+			);
+			path = Jianshu;
+			sourceTree = "<group>";
+		};
+		A3BC2F312058E24700A0429B /* JianshuTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3BC2F322058E24700A0429B /* JianshuTests.swift */,
+				A3BC2F342058E24700A0429B /* Info.plist */,
+			);
+			path = JianshuTests;
+			sourceTree = "<group>";
+		};
+		A3BC2F3C2058E24700A0429B /* JianshuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3BC2F3D2058E24700A0429B /* JianshuUITests.swift */,
+				A3BC2F3F2058E24700A0429B /* Info.plist */,
+			);
+			path = JianshuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3BC2F192058E24700A0429B /* Jianshu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3BC2F422058E24700A0429B /* Build configuration list for PBXNativeTarget "Jianshu" */;
+			buildPhases = (
+				A3BC2F162058E24700A0429B /* Sources */,
+				A3BC2F172058E24700A0429B /* Frameworks */,
+				A3BC2F182058E24700A0429B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jianshu;
+			productName = Jianshu;
+			productReference = A3BC2F1A2058E24700A0429B /* Jianshu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3BC2F2D2058E24700A0429B /* JianshuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3BC2F452058E24700A0429B /* Build configuration list for PBXNativeTarget "JianshuTests" */;
+			buildPhases = (
+				A3BC2F2A2058E24700A0429B /* Sources */,
+				A3BC2F2B2058E24700A0429B /* Frameworks */,
+				A3BC2F2C2058E24700A0429B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3BC2F302058E24700A0429B /* PBXTargetDependency */,
+			);
+			name = JianshuTests;
+			productName = JianshuTests;
+			productReference = A3BC2F2E2058E24700A0429B /* JianshuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3BC2F382058E24700A0429B /* JianshuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3BC2F482058E24700A0429B /* Build configuration list for PBXNativeTarget "JianshuUITests" */;
+			buildPhases = (
+				A3BC2F352058E24700A0429B /* Sources */,
+				A3BC2F362058E24700A0429B /* Frameworks */,
+				A3BC2F372058E24700A0429B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3BC2F3B2058E24700A0429B /* PBXTargetDependency */,
+			);
+			name = JianshuUITests;
+			productName = JianshuUITests;
+			productReference = A3BC2F392058E24700A0429B /* JianshuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3BC2F122058E24700A0429B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Tao Xue";
+				TargetAttributes = {
+					A3BC2F192058E24700A0429B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E3X4D7MVBJ;
+						ProvisioningStyle = Automatic;
+					};
+					A3BC2F2D2058E24700A0429B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E3X4D7MVBJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A3BC2F192058E24700A0429B;
+					};
+					A3BC2F382058E24700A0429B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E3X4D7MVBJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A3BC2F192058E24700A0429B;
+					};
+				};
+			};
+			buildConfigurationList = A3BC2F152058E24700A0429B /* Build configuration list for PBXProject "Jianshu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3BC2F112058E24700A0429B;
+			productRefGroup = A3BC2F1B2058E24700A0429B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3BC2F192058E24700A0429B /* Jianshu */,
+				A3BC2F2D2058E24700A0429B /* JianshuTests */,
+				A3BC2F382058E24700A0429B /* JianshuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3BC2F182058E24700A0429B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BC2F282058E24700A0429B /* LaunchScreen.storyboard in Resources */,
+				A3BC2F252058E24700A0429B /* Assets.xcassets in Resources */,
+				A3BC2F232058E24700A0429B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BC2F2C2058E24700A0429B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BC2F372058E24700A0429B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3BC2F162058E24700A0429B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BC2F202058E24700A0429B /* ViewController.swift in Sources */,
+				A3BC2F1E2058E24700A0429B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BC2F2A2058E24700A0429B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BC2F332058E24700A0429B /* JianshuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BC2F352058E24700A0429B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BC2F3E2058E24700A0429B /* JianshuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3BC2F302058E24700A0429B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3BC2F192058E24700A0429B /* Jianshu */;
+			targetProxy = A3BC2F2F2058E24700A0429B /* PBXContainerItemProxy */;
+		};
+		A3BC2F3B2058E24700A0429B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3BC2F192058E24700A0429B /* Jianshu */;
+			targetProxy = A3BC2F3A2058E24700A0429B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3BC2F212058E24700A0429B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3BC2F222058E24700A0429B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3BC2F262058E24700A0429B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3BC2F272058E24700A0429B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3BC2F402058E24700A0429B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3BC2F412058E24700A0429B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3BC2F432058E24700A0429B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E3X4D7MVBJ;
+				INFOPLIST_FILE = Jianshu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ixshells.jianshu.Jianshu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A3BC2F442058E24700A0429B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E3X4D7MVBJ;
+				INFOPLIST_FILE = Jianshu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ixshells.jianshu.Jianshu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A3BC2F462058E24700A0429B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E3X4D7MVBJ;
+				INFOPLIST_FILE = JianshuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ixshells.jianshu.JianshuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jianshu.app/Jianshu";
+			};
+			name = Debug;
+		};
+		A3BC2F472058E24700A0429B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E3X4D7MVBJ;
+				INFOPLIST_FILE = JianshuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ixshells.jianshu.JianshuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jianshu.app/Jianshu";
+			};
+			name = Release;
+		};
+		A3BC2F492058E24700A0429B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = E3X4D7MVBJ;
+				INFOPLIST_FILE = JianshuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ixshells.jianshu.JianshuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Jianshu;
+			};
+			name = Debug;
+		};
+		A3BC2F4A2058E24700A0429B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = E3X4D7MVBJ;
+				INFOPLIST_FILE = JianshuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ixshells.jianshu.JianshuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Jianshu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3BC2F152058E24700A0429B /* Build configuration list for PBXProject "Jianshu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3BC2F402058E24700A0429B /* Debug */,
+				A3BC2F412058E24700A0429B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3BC2F422058E24700A0429B /* Build configuration list for PBXNativeTarget "Jianshu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3BC2F432058E24700A0429B /* Debug */,
+				A3BC2F442058E24700A0429B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3BC2F452058E24700A0429B /* Build configuration list for PBXNativeTarget "JianshuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3BC2F462058E24700A0429B /* Debug */,
+				A3BC2F472058E24700A0429B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3BC2F482058E24700A0429B /* Build configuration list for PBXNativeTarget "JianshuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3BC2F492058E24700A0429B /* Debug */,
+				A3BC2F4A2058E24700A0429B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3BC2F122058E24700A0429B /* Project object */;
+}
